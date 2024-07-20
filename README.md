@@ -1,8 +1,6 @@
-The following script can detect an anomaly within a dataset that contains information about the sleep patterns of different mammals. <br>
-To accomplish this, I..<br>
-  1. stored each attribute into an array<br>
-  2. calculated the mean of each attribute<br>
-  3. calculated the standard deviation of each attribute<br>
-  4. told the Python shell to display whether or not one of the values I calculated was anomalous based on..<br>
-     a. whether or not the the iterator in the array was greater than "the mean + 2 multiplied by the standard deviation," or:<br>
-     b. if the iterator in the array was was less than "the mean - 2 times the standard deviation."
+This script can detect anomalies within the following dataset: http://lib.stat.cmu.edu/datasets/sleep<br>
+Every time it runs, it will..<br>
+  1. store each attribute into an array<br>
+  2. calculate the mean of each attribute in the array<br>
+  3. calculate the standard deviation of each attribute in the array<br>
+  4. loop through each value in the array to determine whether or not it is anomalous. If the iterator is greater than "the mean plus (or minus) two, multiplied by its standard deviation," the following statement will be returned: "[iterator] is an anomalous value"<br>
